@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "8354157d6fa1c200",
+    "type": "split",
+    "children": [
+      {
+        "id": "276c9c506fe4dc05",
+        "type": "tabs",
+        "dimension": 69.60659898477158,
+        "children": [
+          {
+            "id": "91411ecf0e4829eb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "58e95d81b4db6e22",
+        "type": "tabs",
+        "dimension": 30.393401015228427,
+        "children": [
+          {
+            "id": "48dffd6dc5853d1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "axiomas_de_peano.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bba7ae3723ad1ea4",
+    "type": "split",
+    "children": [
+      {
+        "id": "273c606c1a6c6bf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72af317c0c2a748e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41c53cb3fcb9c4d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4288dafb2a04d526",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "25739622325a8a7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4ea4f8ab793d812",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3daa898d41829c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58b3acb577911089",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3ec22967f5b692f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "575b69084d98c98a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "91411ecf0e4829eb",
+  "lastOpenFiles": [
+    "orden_numeros_naturales.md",
+    "producto_numeros_naturales.md",
+    "suma_numeros_naturales.md",
+    "popiedades_numeros_naturales.md",
+    "definicion_recurrente.md",
+    "axiomas_de_peano.md",
+    "principio_de_induccion.md",
+    "aplicacion_inyectiva.md",
+    "aximomas de Peano.md",
+    "Welcome.md"
+  ]
+}

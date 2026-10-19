@@ -1,0 +1,48 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "algebra": 1,
+    "analisis": 2,
+    "anillos": 3,
+    "aplicaciones": 4,
+    "cardinales": 5,
+    "chuleta": 6,
+    "combinatoria": 7,
+    "complejos": 8,
+    "complemento": 9,
+    "conjuntos": 10,
+    "conteo": 11,
+    "cuerpos": 12,
+    "definicion": 13,
+    "divisibilidad": 14,
+    "ejercicios": 15,
+    "enteros": 16,
+    "fundamentos": 17,
+    "geometria": 18,
+    "grupos": 19,
+    "indice": 20,
+    "inferencia": 21,
+    "libro": 22,
+    "logica": 23,
+    "metodo": 24,
+    "naturales": 25,
+    "numeros": 26,
+    "orden": 27,
+    "polinomios": 28,
+    "racionales": 29,
+    "reales": 30,
+    "relaciones": 31,
+    "teorema": 32
+  },
+  "tagColors": {},
+  "_version": 4
+}

@@ -1,3 +1,5 @@
 {
-  "accentColor": ""
+  "enabledCssSnippets": [
+    "matematicas-color"
+  ]
 }

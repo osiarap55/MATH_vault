@@ -1,1 +1,7 @@
-.obsidian/
+# Libros (copyright y tamaño): solo se versionan las notas
+*.pdf
+
+# Estado de la ventana de Obsidian (cambia en cada sesión)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/

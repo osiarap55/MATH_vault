@@ -1,0 +1,7 @@
+https://www.editorialsanzytorres.com/libros/modelizacion/9788417765590/
+
+⭐ Para la parte de grafos y redes:
+
+Introduction to Algorithms (CLRS) — capítulos de grafos
+
+Network Flows — Ahuja, Magnanti & Orlin (la biblia de flujos)

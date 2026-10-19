@@ -1,1 +1,0 @@
-#numeros_naturales

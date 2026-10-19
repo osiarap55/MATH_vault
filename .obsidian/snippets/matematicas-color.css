@@ -1,0 +1,61 @@
+/* =========================================================
+   Matemáticas · estilo sobrio
+   Color solo donde aporta información:
+     - Definición (azul), Teorema (ámbar), Errores típicos (rojo).
+     - El resto de bloques, en gris neutro.
+   Se activa/desactiva en Ajustes → Apariencia → Fragmentos CSS.
+   ========================================================= */
+
+/* ---------- Bloques con color ---------- */
+/* Definición */
+.callout[data-callout="note"] {
+  --callout-color: 47, 128, 237;
+  --callout-icon: lucide-book-open;
+}
+/* Teorema / Proposición / Ley */
+.callout[data-callout="important"] {
+  --callout-color: 214, 150, 40;
+  --callout-icon: lucide-star;
+}
+/* Errores típicos */
+.callout[data-callout="warning"] {
+  --callout-color: 200, 85, 85;
+  --callout-icon: lucide-alert-triangle;
+}
+
+/* ---------- Bloques neutros (gris) ---------- */
+.callout[data-callout="tip"],
+.callout[data-callout="abstract"],
+.callout[data-callout="example"],
+.callout[data-callout="failure"],
+.callout[data-callout="question"],
+.callout[data-callout="success"] {
+  --callout-color: 128, 128, 128;
+}
+.callout[data-callout="tip"]      { --callout-icon: lucide-lightbulb; }
+.callout[data-callout="abstract"] { --callout-icon: lucide-route; }
+.callout[data-callout="example"]  { --callout-icon: lucide-shapes; }
+.callout[data-callout="failure"]  { --callout-icon: lucide-ban; }
+.callout[data-callout="question"] { --callout-icon: lucide-pencil; }
+.callout[data-callout="success"]  { --callout-icon: lucide-check; }
+
+/* Forma de todos los bloques */
+.callout {
+  border-left: 3px solid rgb(var(--callout-color));
+  border-radius: 6px;
+}
+
+/* ---------- Explorador: solo las carpetas principales con color ---------- */
+.nav-folder-title[data-path="algebra"]                                   { color: #4dabf7; }
+.nav-folder-title[data-path="analisis"]                                  { color: #ff6b6b; }
+.nav-folder-title[data-path="computacionmatematica"]                     { color: #3bc9db; }
+.nav-folder-title[data-path="ecuacionesdiferenciales_sistemasdinamicos"] { color: #20c997; }
+.nav-folder-title[data-path="geometria_topologia"]                       { color: #94d82d; }
+.nav-folder-title[data-path="probabilidad_estadistica"]                  { color: #cc5de8; }
+.nav-folder-title[data-path="teoremasdenumeros"]                         { color: #fcc419; }
+
+/* Notas índice (LM ...) y nota de inicio, en negrita */
+.nav-file-title[data-path$="Inicio.md"],
+.nav-file-title[data-path*="/LM "] {
+  font-weight: 600;
+}
